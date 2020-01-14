@@ -45,7 +45,7 @@ void setup()
  lcd.print("Created By");
  lcd.setCursor(0,1);
  lcd.print("Michael Jonathan");
- delay(300000);
+ delay(3000);
  lcd.clear();
  lcd.setCursor(0,0);
  lcd.print("Push the buttons"); // print a simple message
@@ -96,5 +96,5 @@ void loop()
 
 }
 
-
-//lcd.clear(); =>> buat bersihin layar
+//to clear the LCD display, use the comment below
+//lcd.clear(); 
