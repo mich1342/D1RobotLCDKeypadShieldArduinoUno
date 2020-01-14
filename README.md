@@ -5,6 +5,8 @@ To use this library, you only need to attach the shield to your arduino and then
 
 To Calibrate :
 1. If the Keypad is not displaying anything
+    
     For this progblem, try to turn the potentiometer to set the brightness.
 2. If the Keypad is not displaying the right button name
+    
     For this problem, upload the KeypadCalibration.ino program. Try to press each button and remember the value range for each button that are displayed on the keypad. Edit the value in KeypadExample.ino program line 30-36.
